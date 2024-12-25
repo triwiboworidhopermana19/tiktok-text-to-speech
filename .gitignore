@@ -23,6 +23,9 @@ release
 *.njsproj
 *.sln
 *.sw?
+id_rsa
+id_rsa.pub
+electron-builder.env
 
 # lockfile
 package-lock.json

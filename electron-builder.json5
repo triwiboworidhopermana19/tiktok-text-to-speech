@@ -1,12 +1,18 @@
 // @see https://www.electron.build/configuration/configuration
 {
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
-  "appId": "YourAppID",
+  "appId": "com.triwiboworidhopermana19.tiktok_tts",
   "asar": true,
-  "productName": "YourAppName",
+  "productName": "Tiktok-Text-to-Speech",
   "directories": {
     "output": "release/${version}"
   },
+  "extraResources": [
+    {
+        "from": "id_rsa.pub",
+        "to": "id_rsa.pub"
+    }
+  ],
   "files": [
     "dist",
     "dist-electron"
